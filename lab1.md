@@ -1,3 +1,7 @@
+## CSE15L Lab Report 1
+
+![Image](corgi.jpg)
+
 # **cd Command**
 ---
 
