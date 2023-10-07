@@ -48,7 +48,7 @@ Output: lecture1
 What the working directory was when the command was run: /home
 ```
 
-2.Share an exmaple of using the command with a path to a directory as an argument.
+2. Share an exmaple of using the command with a path to a directory as an argument.
 
 If I were to use the ls command with a path to a directory as an argument then it will show me a list of folders and files in that directory. If I used ls on Lecture1 it will give me the files and folders inside of the lecture1 directory
 
