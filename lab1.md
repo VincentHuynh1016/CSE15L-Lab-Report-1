@@ -14,6 +14,7 @@ Command: [user@sahara ~]$ cd
 Output:
 What the working directory was when the command was run: /home
 ```
+<!---->
 
 #### **2.** Share an exmaple of using the command with a path to a directory as an argument.
 
