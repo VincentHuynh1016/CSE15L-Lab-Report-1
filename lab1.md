@@ -20,7 +20,7 @@ What the working directory was when the command was run: /home
 
 #### **2.** Share an exmaple of using the command with a path to a directory as an argument.
 
-If I used the change directory command with a path as an argument then it will take me to that folder/directory. For example, I used the cd command and passed in the lecture1 folder as an arguement. After running the command it has changed my directory to that folder. This is becasue I specified where I wanted to change my directory and I gave a path to the command which made it possible for me to change into that specified directory.
+If I used the change directory command with a path as an argument then it will take me to that folder/directory. For example, I used the cd command and passed in the lecture1 folder as an arguement. After running the command it has changed my directory to that folder. This is becasue I specified where I wanted to change my directory and I gave a valid path to the command.
 
 ```
 Command: [user@sahara ~]$ cd lecture1
@@ -30,7 +30,7 @@ What the working directory was when the command was run: /home
 
 #### **3.** Share an example of using the command with a path to a file as an argument.
 
-If I were to use the change directory command with a path to a file as an agrument then it will not work. This is becasue a file is not a directory. For example, when I use cd on the text file like en-us.txt then it will ouput will be telling me that en-us.txt is not a directory that is why I cannot use the cd command on it.
+If I were to use the change directory command with a path to a file as an agrument then it will not work (Error). This is becasue a file is not a directory. For example, when I use cd on the text file like en-us.txt then it will ouput will be telling me that en-us.txt is not a directory that is why I cannot use the cd command on it.
 
 ```
 Command:[user@sahara ~/lecture1/messages]$ cd en-us.txt
@@ -45,7 +45,7 @@ What the working directory was when the command was run: /home/lecture1/messages
 ---
 #### **1.** Share an example of using the command with no arguments.
 
-If I were to use the ls command with no arguements then it will show me a list of what folders or files are in the current directory I am in. For example, I used ls in the terminal and it outputed lecture1, so that means that the list of folders/files in the home directory is lecture1.
+If I were to use the ls command with no arguements then it will show me a list of what folders or files are in the current directory I am in. For example, I used ls in the terminal and it outputed lecture1, so that means that I was in the home directory and the list of folders/files in the home directory is lecture1.
 
 ```
 Command: [user@sahara ~]$ ls
@@ -55,7 +55,7 @@ What the working directory was when the command was run: /home
 
 #### **2.** Share an exmaple of using the command with a path to a directory as an argument.
 
-If I were to use the ls command with a path to a directory as an argument then it will show me a list of folders and files in that directory. If I used ls on Lecture1 it will give me the files and folders inside of the lecture1 directory
+If I were to use the ls command with a path to a directory as an argument then it will show me a list of folders and files in that directory. If I used ls on Lecture1 it will give me the files and folders inside of the lecture1 directory.
 
 ```
 Command:[user@sahara ~]$ ls lecture1
@@ -65,7 +65,7 @@ What the working directory was when the command was run: /home
 
 #### **3.** Share an example of using the command with a path to a file as an argument.
 
-If I used the ls command with a path to a file as an argument then it will not work. For example I used ls on the a text file, en-us.txt, in the terminal and the output ls: cannot access 'en-us.txt': No such file or directory. I beleive that I got this error because ls works when given a valid path/directory and because en-us.txt was not a valid directory the command did not work.
+If I used the ls command with a path to a file as an argument then it will not work (Error). For example I used ls on the text file, en-us.txt, in the terminal and the output ls: cannot access 'en-us.txt': No such file or directory. I beleive that I got this error because ls works when given a valid path/directory and because en-us.txt was not a valid directory the command did not work.
 
 ```
 Command: [user@sahara ~]$ ls en-us.txt
@@ -90,7 +90,7 @@ What the working directory was when the command was run: /home
 
 #### **2.** Share an exmaple of using the command with a path to a directory as an argument.
 
-If I use the command with a path to a directory as an argument then it would spit out that the path was a directory. For example, if I typed in the terminal cat lecture1, or cat messages after changing my directory to lecture1, then it would the output would be cat: lecture1: Is a directory and cat: messages: Is a directory.
+If I use the command with a path to a directory as an argument then it would spit out that the path was a directory (Error). For example, if I typed in the terminal cat lecture1, then it would the output would be cat: lecture1: Is a directory. I beleive I got this result because I tried to concatenate and display the contents of a directory and not a file. I treated the directory as if it was a file that is why I got this error. 
 
 ```
 Command:[user@sahara ~]$ cat lecture1
