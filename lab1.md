@@ -90,7 +90,7 @@ What the working directory was when the command was run: /home
 
 #### **2.** Share an exmaple of using the command with a path to a directory as an argument.
 
-If I use the command with a path to a directory as an argument then it would spit out that the path was a directory (Error). For example, if I typed in the terminal cat lecture1, then it would the output would be cat: lecture1: Is a directory. I beleive I got this result because I tried to concatenate and display the contents of a directory and not a file. I treated the directory as if it was a file that is why I got this error. 
+If I use the command with a path to a directory as an argument then it would spit out that the path was a directory (Error). For example, if I typed in the terminal cat lecture1, then it would the output would be cat: lecture1: Is a directory. I beleive I got this result because I tried to concatenate and display the contents of a directory and not a file. The cat command is trying to display the contents of the directory and becasue there is no content it will generate an error. 
 
 ```
 Command:[user@sahara ~]$ cat lecture1
