@@ -30,7 +30,7 @@ What the working directory was when the command was run: /home
 
 #### **3.** Share an example of using the command with a path to a file as an argument.
 
-If I were to use the change directory command with a path to a file as an agrument then it will not work (Error). This is becasue a file is not a directory. For example, when I use cd on the text file like en-us.txt then it will ouput will be telling me that en-us.txt is not a directory that is why I cannot use the cd command on it.
+If I were to use the change directory command with a path to a file as an agrument then it will not work (Error). This is becasue a file is not a directory. For example, when I use cd on the text file, en-us.txt, the ouput was that en-us.txt is not a directory, that is why I cannot use the cd command on it.
 
 ```
 Command:[user@sahara ~/lecture1/messages]$ cd en-us.txt
