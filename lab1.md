@@ -65,12 +65,12 @@ What the working directory was when the command was run: /home
 
 #### **3.** Share an example of using the command with a path to a file as an argument.
 
-If I used the ls command with a path to a file as an argument then it will not work (Error). For example I used ls on the text file, en-us.txt, in the terminal and the output ls: cannot access 'en-us.txt': No such file or directory. I beleive that I got this error because ls works when given a valid path/directory and because en-us.txt was not a valid directory the command did not work.
+If I used the ls command with a path to a file as an argument then it will just output the name of the file. For example I used ls on the text file, en-us.txt, in the terminal and the output was en-us.txt. I beleive I got this output becasue ls is used to list the information about the file and in this case it just displayed the name of the file.
 
 ```
 Command: [user@sahara ~]$ ls en-us.txt
-Output: ls: cannot access 'en-us.txt': No such file or directory
-What the working directory was when the command was run: /home
+Output: en-us.txt
+What the working directory was when the command was run: /home/lecture1/messages
 ```
 
 
