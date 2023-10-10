@@ -45,7 +45,7 @@ What the working directory was when the command was run: /home/lecture1/messages
 ---
 #### **1.** Share an example of using the command with no arguments.
 
-If I were to use the ls command with no arguements then it will show me a list of what folders or files are in the current directory I am in. For example, I used ls in the terminal and it outputed lecture1, so that means that I was in the home directory and the list of folders/files in the home directory is lecture1.
+If I were to use the ls command with no arguements then it will show me a list of files, codes, and subdirectories of the current directory I am in. For example, I used ls in the terminal and it outputed lecture1, so that means that I was in the home directory and the list of files/codes/subdirectories in the home directory is lecture1.
 
 ```
 Command: [user@sahara ~]$ ls
