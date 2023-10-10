@@ -55,7 +55,7 @@ What the working directory was when the command was run: /home
 
 #### **2.** Share an exmaple of using the command with a path to a directory as an argument.
 
-If I were to use the ls command with a path to a directory as an argument then it will show me a list of folders and files in that directory. If I used ls on Lecture1 it will give me the files and folders inside of the lecture1 directory.
+If I were to use the ls command with a path to a directory as an argument then it will show me a list of files, codes and subdirectories in that directory. If I used ls on Lecture1 it will give me the files, codes and subdirectories inside of the lecture1 directory, which are Hello.class, Hello.java messages and README.
 
 ```
 Command:[user@sahara ~]$ ls lecture1
@@ -65,7 +65,7 @@ What the working directory was when the command was run: /home
 
 #### **3.** Share an example of using the command with a path to a file as an argument.
 
-If I used the ls command with a path to a file as an argument then it will just output the name of the file. For example I used ls on the text file, en-us.txt, in the terminal and the output was en-us.txt. I beleive I got this output becasue ls is used to list the information about the file and in this case it just displayed the name of the file.
+If I used the ls command with a path to a file as an argument then it will just output the name of the file. For example, I used ls on the text file, en-us.txt, in the terminal and the output was en-us.txt. I beleive I got this output becasue ls is used to list the information about the file and in this case it just displayed the name of the file.
 
 ```
 Command: [user@sahara ~]$ ls en-us.txt
