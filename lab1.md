@@ -2,7 +2,7 @@
 
 ![Image](corgi.jpg)
 
-
+---
 
 # **cd Command**
 ---
