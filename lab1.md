@@ -2,6 +2,8 @@
 
 ![Image](corgi.jpg)
 
+
+
 # **cd Command**
 ---
 
@@ -37,6 +39,8 @@ What the working directory was when the command was run: /home/lecture1/messages
 ```
 
 
+
+
 # **ls Command**
 ---
 #### **1.** Share an example of using the command with no arguments.
@@ -68,6 +72,8 @@ Command: [user@sahara ~]$ ls en-us.txt
 Output: ls: cannot access 'en-us.txt': No such file or directory
 What the working directory was when the command was run: /home
 ```
+
+
 
 # **cat Command**
 ---
