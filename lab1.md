@@ -105,7 +105,7 @@ What the working directory was when the command was run: /home
 
 #### **3.** Share an example of using the command with a path to a file as an argument.
 
-When using the command with a path to a file as an argument after changing into the right directory then it will print out the contents of that file. For example, I am in the directory /home and if I do the command `cat` /home/lecture1/messages/en-us.txt it will print out the content inside that file which is Hello World!
+When using the command with a path to a file as an argument after changing into the right directory or giving it an absolute/relvative path to a file then it will print out the contents of that file. For example, I am in the directory /home and if I do the command `cat` on this absolute path, /home/lecture1/messages/en-us.txt, it will print out the content inside that file which is Hello World!. The same thing would print out if my working directory was, /home/lecture1/messages, and just did the command 'cat' en-us.txt it will print out Hello World!
 
 ```
 Command: [user@sahara ~]$ cat /home/lecture1/messages/en-us.txt
