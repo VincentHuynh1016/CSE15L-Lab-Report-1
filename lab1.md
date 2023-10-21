@@ -9,7 +9,7 @@
 
 #### **1.** Share an example of using the command with no arguments.
    
-If I used the change directory command with no arguments in the terminal then it will take me back to the home directory. If I ran the command in the home directory then nothing will happen. For example I used `cd` in the terminal and I was in the /home/lecture1/messages directory. After the command ran I did `pwd` and was back in the home directory. 
+If I used the change directory command with no arguments in the terminal then it will take me back to the home directory. If I ran the command in the home directory then nothing will happen because I am already in the home directory. For example, I used `cd` in the terminal and my working directory was, /home/lecture1/messages. After the command ran I checked my current working directory with the `pwd` command and the output showed me that I was in the /home directory.
 
 ```
 Command: [user@sahara ~]$ cd 
